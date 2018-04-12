@@ -52,13 +52,13 @@
                                 "settings": {
                                     "oneOf": [
                                         {
-                                            "$ref": "connectionSettings.json#/definitions/settings"
+                                            "$ref": "applicationGateways.json#/definitions/settings"
                                         },
                                         {
                                             "type": "array",
                                             "minItems": 1,
                                             "items": {
-                                                "$ref": "connectionSettings.json#/definitions/settings"
+                                                "$ref": "applicationGateways.json#/definitions/settings"
                                             }
                                         }
                                     ]
